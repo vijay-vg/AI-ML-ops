@@ -1,0 +1,95 @@
+2026-08-16 11:56:20.274 [info] Extension host with pid 2785 started
+2026-08-16 11:56:20.274 [info] Lock '/home/lab-user/.local/share/code-server/User/workspaceStorage/-45a38ad6/vscode.lock': Lock acquired.
+2026-08-16 11:56:20.850 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onCommand:markdown.showPreview'
+2026-08-16 11:56:20.850 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-08-16 11:56:20.851 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-16 11:56:20.851 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-16 11:56:20.851 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-16 11:56:20.851 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-08-16 11:56:20.851 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onLanguage'
+2026-08-16 11:56:21.305 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at Object.<anonymous> (/home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:1029:15913)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at e._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:198:25788)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at RZ.Cb (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:237:1816)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-08-16 11:56:21.335 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:255:17800
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:1:358
+    at Mdt.exports (/home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:430:132)
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:433:11257
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:1:358
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:441:757
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:1:358
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:463:1241
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:1:358
+    at Object.<anonymous> (/home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:2801:525)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at e._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:198:25788)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at RZ.Cb (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:237:1816)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-08-16 11:56:21.510 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:388:6355)
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:749:93220
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:1:358
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:757:81563
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:1:358
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:757:83428
+    at /home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:1:358
+    at Object.<anonymous> (/home/lab-user/.local/share/code-server/extensions/rooveterinaryinc.roo-cline-3.22.5/dist/extension.js:3406:3917)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at e._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:388:5728)
+    at t._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:206:22695)
+    at r._load (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:198:25788)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at RZ.Cb (file:///usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:237:1816)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-08-16 11:56:22.621 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-08-16 11:56:22.622 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-08-16 11:56:23.159 [info] Eager extensions activated
+2026-08-16 11:56:23.159 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-08-16 11:56:23.159 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-08-16 11:56:24.455 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-08-16 11:56:24.464 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-08-16 12:12:50.192 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:12:50.274 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:12:52.632 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:12:58.907 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:03.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:08.975 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:20.647 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:25.681 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:36.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:41.300 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:46.330 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:51.361 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:13:56.393 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:14:01.424 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:14:06.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507
+2026-08-16 12:14:15.863 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3507

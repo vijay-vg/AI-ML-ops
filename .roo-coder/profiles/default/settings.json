@@ -1,0 +1,14 @@
+{
+  "providerProfiles": {
+    "currentApiConfigName": "kodekey-profile",
+    "apiConfigs": {
+      "kodekey-profile": {
+        "apiProvider": "openai",
+        "id": "kodekey-profile",
+        "openAiApiKey": "Sk-kkAI-5b6434a2ffb8caa5b8a95178c63fd1f239bfe5a660e55eaaba638e1e75239c15kk_txdy56cro5lmfp24-kk4db0adba",
+        "openAiModelId": "openai/gpt-4.1-mini",
+        "openAiBaseUrl": "https://kodekey.ai.kodekloud.com/v1"
+      }
+    }
+  }
+}

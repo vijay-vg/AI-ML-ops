@@ -1,0 +1,12 @@
+2026-08-16 11:56:06.404 [info] 
+
+
+
+
+2026-08-16 11:56:06.411 [info] Extension host agent started.
+2026-08-16 11:56:06.435 [info] Started initializing default profile extensions in extensions installation folder. file:///home/lab-user/.local/share/code-server/extensions
+2026-08-16 11:56:06.438 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/lab-user/.local/share/code-server/extensions
+2026-08-16 11:56:10.884 [info] Extensions added from another source rooveterinaryinc.roo-cline file:///home/lab-user/.local/share/code-server/extensions/extensions.json
+2026-08-16 11:56:12.998 [info] [10.244.135.41][b21763e0][ManagementConnection] New connection established.
+2026-08-16 11:56:17.715 [info] [10.244.135.41][96c86429][ExtensionHostConnection] New connection established.
+2026-08-16 11:56:17.719 [info] [10.244.135.41][96c86429][ExtensionHostConnection] <2785> Launched Extension Host Process.
